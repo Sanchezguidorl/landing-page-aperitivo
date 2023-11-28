@@ -1,0 +1,18 @@
+#Presentation{
+    background-image: url(../../../public/assets/images/bg-aperitivo.webp);
+    background-position: center center;
+    height: 500px;
+}
+
+#Presentation .bg-aperitivo{
+    box-shadow: 0px -31px 44px -12px rgba(0,0,0,0.2) inset;
+    background:linear-gradient(#69c0f1 65%, #337ba4 30%);
+}
+
+#Presentation-content{
+    animation: var(--animation-fadeInY) 1.5s forwards;
+}
+
+.palmera{
+    animation: var(--animation-fadeInX) 1.5s forwards;
+}

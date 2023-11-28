@@ -1,0 +1,9 @@
+#Collections{
+    color:var(--primary-text-color);
+}
+
+
+
+#Collections .cocktail-container{
+    border-radius:130px;
+}

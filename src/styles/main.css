@@ -1,0 +1,5 @@
+@import './globals.css';
+@import './layouts/Header.css';
+@import './layouts/Footer.css';
+@import './layouts/Presentation.css';
+@import './layouts/Collections.css';
