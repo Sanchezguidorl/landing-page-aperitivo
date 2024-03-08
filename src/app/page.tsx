@@ -7,8 +7,6 @@ import Presentation from "./components/layouts/Presentation";
 import ShowSectionContainer from "./components/layouts/ShowSectionContainer";
 
 export default function Home() {
-
-
   return (
     <>
       <Header />
@@ -18,21 +16,18 @@ export default function Home() {
       <main id="Main" className="flex flex-col-reverse sm:flex-row">
         <BannerMain />
       </main>
-      <ShowSectionContainer>
-      <section id="Collections" className=" text-center mt-32">
-        <Collections />
-      </section>
+      <ShowSectionContainer sectionName="Collections">
+        <div className=" text-center mt-32">
+          <Collections />
+        </div>
       </ShowSectionContainer>
-      <ShowSectionContainer>
-      <section
-        id="ProcessCocktail"
-        className="mt-10 text-center text-primary"
-      >
-        <ProcessCocktail />
-      </section>
+      <ShowSectionContainer sectionName="ProcessCocktail">
+        <div className="mt-10 text-center text-primary">
+          <ProcessCocktail />
+        </div>
       </ShowSectionContainer>
       <footer id="Footer" className="onlyOpacityAnimation pb-10">
-      <Footer />
+        <Footer />
       </footer>
     </>
   );

@@ -2,7 +2,7 @@
 
 import { ReactNode, useEffect, useRef } from "react";
 
-function ShowSectionContainer({ children }: { children: ReactNode }) {
+function ShowSectionContainer({ children, sectionName }: { children: ReactNode, sectionName:string }) {
   const elementRef = useRef<HTMLDivElement>(null);
 
   const handleScrollAnimation = () => {
@@ -30,9 +30,9 @@ function ShowSectionContainer({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <div ref={elementRef} className="hidden-section section textShadow">
+    <section ref={elementRef} id={sectionName} className="hidden-section section textShadow">
       {children}
-    </div>
+    </section>
   );
 }
 
