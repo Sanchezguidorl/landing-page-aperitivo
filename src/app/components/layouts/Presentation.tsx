@@ -4,16 +4,21 @@ import Image from "next/image";
 
 function Presentation() {
   return (
-<>
+    <>
       <Image
+        quality={80}
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
         alt="Imagen de hojas de palmera"
       />
-      <div id="Presentation-content" className="absolute left-12 sm:left-1/3 top-1/3 sm:top-1/4">
+      <div
+        id="Presentation-content"
+        className="absolute left-12 sm:left-1/3 top-1/3 sm:top-1/4"
+      >
         <div className="relative">
           <div className="h-60 sm:h-80 rounded-full py-10 bg-aperitivo">
             <Image
+              quality={90}
               src={imgAperitivo}
               alt="Imagen de Aperitivo"
               className="h-full w-fit"
@@ -32,7 +37,7 @@ function Presentation() {
           </div>
         </div>
       </div>
-</>
+    </>
   );
 }
 

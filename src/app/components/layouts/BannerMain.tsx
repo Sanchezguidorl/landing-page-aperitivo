@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function BannerMain() {
   return (
-<>
+    <>
       <div className="h-72 sm:h-auto overflow-hidden sm:flex-1 relative fadeToLeft">
         <Image
           className="absolute top-1/3 left-1/4 sombraPngLeft"
@@ -27,12 +27,13 @@ function BannerMain() {
           </p>
         </div>
         <Image
+          placeholder="blur"
           className="brightness-75"
           src={imgBarman}
           alt="Barman sirviendo aperitivo"
         />
       </div>
-      </>
+    </>
   );
 }
 
