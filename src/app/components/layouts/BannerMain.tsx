@@ -11,11 +11,13 @@ function BannerMain() {
           className="absolute top-1/3 left-1/4 sombraPngLeft"
           src={imgGlassAperitivo}
           alt="Vaso de aperitivo"
+          sizes="(max-width:600px) 400px, 500px"
         />
         <Image
           className="absolute top-1/3 left-1/3 sombraPngLeft"
           src={imgCopaAperitivo}
           alt="Vaso de aperitivo"
+          sizes="(max-width:600px) 400px, 500px"
         />
       </div>
       <div className="overflow-hidden sm:flex-1 relative fadeToLeft">
@@ -31,6 +33,7 @@ function BannerMain() {
           className="brightness-75"
           src={imgBarman}
           alt="Barman sirviendo aperitivo"
+          sizes="(max-width:600px) 500px, 600px"
         />
       </div>
     </>

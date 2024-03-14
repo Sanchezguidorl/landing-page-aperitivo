@@ -10,6 +10,7 @@ function Presentation() {
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
         alt="Imagen de hojas de palmera"
+        sizes="(max-width:600px) 600px, 831px"
       />
       <div
         id="Presentation-content"
@@ -22,6 +23,7 @@ function Presentation() {
               src={imgAperitivo}
               alt="Imagen de Aperitivo"
               className="h-full w-fit"
+              sizes="(max-width:600px) 300px, 500px"
             />
           </div>
           <div className="absolute top-1/4 left-1/3 sm:left-1/2 w-68  sm:w-80">

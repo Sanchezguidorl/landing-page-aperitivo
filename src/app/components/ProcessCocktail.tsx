@@ -13,6 +13,7 @@ function ProcessCocktail() {
           src={imgCocktailsBar}
           alt="CocktailsBar"
           className="absolute h-full object-cover"
+          sizes="(max-width:600) 600px, 100vw"
         />
       </div>
       <h3 className="text-primary font-bold text-xl mt-12">

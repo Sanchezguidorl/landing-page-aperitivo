@@ -19,6 +19,7 @@ function Collections() {
               src={imgCocktail3}
               className=" cocktail-image contrast-150 absolute h-full object-cover"
               alt="Coctail image"
+              sizes="(max-width:1000px) 500px"
             />
           </div>
           <h3 className="text-5xl text-aperitivo font-serif mt-5">
