@@ -1,10 +1,11 @@
-import ProcessCocktail from "./components/ProcessCocktail";
-import BannerMain from "./components/layouts/BannerMain";
-import Collections from "./components/layouts/Collections";
-import Footer from "./components/layouts/Footer";
 import Header from "./components/layouts/Header";
 import Presentation from "./components/layouts/Presentation";
-import ShowSectionContainer from "./components/layouts/ShowSectionContainer";
+import BannerMain from "./components/layouts/BannerMain";
+import Collections from "./components/layouts/Collections";
+import ProcessCocktail from "./components/ProcessCocktail";
+import Footer from "./components/layouts/Footer";
+import dynamic from "next/dynamic";
+const ShowSectionContainer=dynamic(()=>import("./components/layouts/ShowSectionContainer"));
 
 export default function Home() {
   return (

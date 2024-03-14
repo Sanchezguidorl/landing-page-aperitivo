@@ -6,11 +6,13 @@ function Presentation() {
   return (
     <>
       <Image
+        priority={true}
+        loading="lazy"
         quality={70}
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
         alt="Imagen de hojas de palmera"
-        sizes="(max-width:800px) 300px, 500px"
+        sizes="(max-width:600px) 300px, (min-width:600px) 500px"
       />
       <div
         id="Presentation-content"
@@ -19,6 +21,7 @@ function Presentation() {
         <div className="relative">
           <div className="h-60 sm:h-80 rounded-full py-10 bg-aperitivo">
             <Image
+              loading="lazy"
               quality={60}
               src={imgAperitivo}
               alt="Imagen de Aperitivo"

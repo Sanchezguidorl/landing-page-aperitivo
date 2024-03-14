@@ -14,28 +14,28 @@ function Footer() {
           className="absolute  opacity-20 -left-20 top-8 perspective h-fit w-1/4 sm:w-1/5"
           src={imgLicor1}
           alt="Image licor"
-          sizes="(min-width:800px) 500px, 350px"
+          sizes="(min-width:800px) 500px, 100px"
         />
         <Image
           quality={60}
           className="absolute  opacity-20 perspective h-fit w-1/4 sm:w-1/5 left-1/4"
           src={imgLicor2}
           alt="Image licor"
-          sizes="(min-width:800px) 500px, 350px"
+          sizes="(min-width:800px) 500px, 100px"
         />
         <Image
           quality={60}
           className="absolute  opacity-20 perspective h-fit w-1/4 sm:w-1/5 -right-1/4 top-1/3 sm:top-0"
           src={imgLicor3}
           alt="Image licor"
-          sizes="(min-width:800px) 500px, 350px"
+          sizes="(min-width:800px) 500px, 100px"
         />
         <Image
           quality={60}
           className="absolute  opacity-20 perspective h-fit w-1/4 sm:w-1/5 left-1/2 top-3/4"
           src={imgLicor4}
           alt="Image licor"
-          sizes="(mmin-width:800px) 500px, 350px"
+          sizes="(mmin-width:800px) 500px, 100px"
         />
       </div>
       <div className="textShadowFooter relative z-10 flex flex-col md:flex-row justify-around items-center text-center pt-20 pb-2">

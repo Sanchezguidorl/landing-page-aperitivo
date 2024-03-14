@@ -15,7 +15,7 @@ function Collections() {
         <div className="px-1 py-10 lg:p-10">
           <div className="mx-auto w-60 relative h-96 flex justify-center items-center overflow-hidden cocktail-container">
             <Image
-            quality={60}
+              quality={60}
               loading="lazy"
               src={imgCocktail3}
               className=" cocktail-image contrast-150 absolute h-full object-cover"
