@@ -33,7 +33,7 @@ function BannerMain() {
           </p>
         </div>
         <Image
-          loading="lazy"
+          priority={true}
           placeholder="blur"
           className="brightness-75"
           src={imgBarman}
