@@ -6,11 +6,11 @@ function Presentation() {
   return (
     <>
       <Image
-        quality={80}
+        quality={70}
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
         alt="Imagen de hojas de palmera"
-        sizes="(max-width:600px) 600px, 800px"
+        sizes="(max-width:800px) 300px, 500px"
       />
       <div
         id="Presentation-content"
