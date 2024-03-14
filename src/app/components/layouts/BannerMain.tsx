@@ -12,14 +12,14 @@ function BannerMain() {
           className="absolute top-1/3 left-1/4 sombraPngLeft"
           src={imgGlassAperitivo}
           alt="Vaso de aperitivo"
-          sizes="(max-width:600px) 300px, 500px"
+          sizes="(max-width:600px) 240px, 300px"
         />
         <Image
-        quality={60}
+        quality={80}
           className="absolute top-1/3 left-1/3 sombraPngLeft"
           src={imgCopaAperitivo}
           alt="Vaso de aperitivo"
-          sizes="(max-width:600px) 300px, 500px"
+          sizes="(max-width:600px) 400px, 500px"
         />
       </div>
       <div className="overflow-hidden sm:flex-1 relative fadeToLeft">
