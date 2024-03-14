@@ -8,7 +8,7 @@ function BannerMain() {
     <>
       <div className="h-72 sm:h-auto overflow-hidden sm:flex-1 relative fadeToLeft">
         <Image
-          loading="lazy"
+          
           quality={70}
           className="absolute top-1/3 left-1/4 sombraPngLeft"
           src={imgGlassAperitivo}
@@ -16,7 +16,7 @@ function BannerMain() {
           sizes="(max-width:600px) 240px, 400px"
         />
         <Image
-          loading="lazy"
+          
           quality={60}
           className="absolute top-1/3 left-1/3 sombraPngLeft"
           src={imgCopaAperitivo}

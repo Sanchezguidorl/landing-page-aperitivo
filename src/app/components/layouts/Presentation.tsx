@@ -20,7 +20,7 @@ function Presentation() {
         <div className="relative">
           <div className="h-60 sm:h-80 rounded-full py-10 bg-aperitivo">
             <Image
-              loading="lazy"
+              
               quality={60}
               src={imgAperitivo}
               alt="Imagen de Aperitivo"

@@ -10,7 +10,7 @@ function ProcessCocktail() {
       <div className="h-96 relative flex justify-center items-center overflow-hidden">
         <Image
         quality={60}
-          loading="lazy"
+          
           src={imgCocktailsBar}
           alt="CocktailsBar"
           className="absolute h-full object-cover"
@@ -23,7 +23,7 @@ function ProcessCocktail() {
       <div className="flex flex-col sm:flex-row justify-around items-center mt-16">
         <div className="flex flex-col items-center w-80 px-4 py-6">
           <div className=" h-44 w-32 border-primary flex justify-center items-center">
-            <Image loading="lazy" src={iconStep1} alt="Icon step process" />
+            <Image  src={iconStep1} alt="Icon step process" />
           </div>
           <h4 className="font-bold mt-4 text-lg">Cocktail text</h4>
           <p className=" font-semibold mt-2 text-sm">
@@ -33,7 +33,7 @@ function ProcessCocktail() {
         </div>
         <div className="flex flex-col items-center w-80 px-4 py-6">
           <div className=" h-44 w-32 border-primary flex justify-center items-center">
-            <Image loading="lazy" src={iconStep2} alt="Icon step process" />
+            <Image  src={iconStep2} alt="Icon step process" />
           </div>
           <h4 className="font-bold mt-4 text-lg">Cocktail text</h4>
           <p className=" font-semibold mt-2 text-sm">
@@ -43,7 +43,7 @@ function ProcessCocktail() {
         </div>
         <div className="flex flex-col items-center w-80 px-4 py-6">
           <div className=" h-44 w-32 border-primary flex justify-center items-center">
-            <Image loading="lazy" src={iconStep3} alt="Icon step process" />
+            <Image  src={iconStep3} alt="Icon step process" />
           </div>
           <h4 className="font-bold mt-4 text-lg">Cocktail text</h4>
           <p className=" font-semibold mt-2 text-sm">
