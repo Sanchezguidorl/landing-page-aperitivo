@@ -8,16 +8,18 @@ function BannerMain() {
     <>
       <div className="h-72 sm:h-auto overflow-hidden sm:flex-1 relative fadeToLeft">
         <Image
+        quality={70}
           className="absolute top-1/3 left-1/4 sombraPngLeft"
           src={imgGlassAperitivo}
           alt="Vaso de aperitivo"
-          sizes="(max-width:600px) 400px, 500px"
+          sizes="(max-width:600px) 300px, 500px"
         />
         <Image
+        quality={60}
           className="absolute top-1/3 left-1/3 sombraPngLeft"
           src={imgCopaAperitivo}
           alt="Vaso de aperitivo"
-          sizes="(max-width:600px) 400px, 500px"
+          sizes="(max-width:600px) 300px, 500px"
         />
       </div>
       <div className="overflow-hidden sm:flex-1 relative fadeToLeft">
@@ -29,6 +31,7 @@ function BannerMain() {
           </p>
         </div>
         <Image
+        quality={60}
           placeholder="blur"
           className="brightness-75"
           src={imgBarman}

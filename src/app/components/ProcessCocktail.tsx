@@ -9,11 +9,12 @@ function ProcessCocktail() {
     <>
       <div className="h-96 relative flex justify-center items-center overflow-hidden">
         <Image
+        quality={60}
           loading="lazy"
           src={imgCocktailsBar}
           alt="CocktailsBar"
           className="absolute h-full object-cover"
-          sizes="(max-width:600) 600px, 100vw"
+          sizes="(max-width:600) 600px"
         />
       </div>
       <h3 className="text-primary font-bold text-xl mt-12">

@@ -10,7 +10,7 @@ function Presentation() {
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
         alt="Imagen de hojas de palmera"
-        sizes="(max-width:600px) 600px, 831px"
+        sizes="(max-width:600px) 600px, 800px"
       />
       <div
         id="Presentation-content"
@@ -19,11 +19,11 @@ function Presentation() {
         <div className="relative">
           <div className="h-60 sm:h-80 rounded-full py-10 bg-aperitivo">
             <Image
-              quality={90}
+              quality={60}
               src={imgAperitivo}
               alt="Imagen de Aperitivo"
               className="h-full w-fit"
-              sizes="(max-width:600px) 300px, 500px"
+              sizes="(min-width:600px) 500px, 300px"
             />
           </div>
           <div className="absolute top-1/4 left-1/3 sm:left-1/2 w-68  sm:w-80">
