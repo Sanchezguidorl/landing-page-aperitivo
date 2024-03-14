@@ -19,7 +19,7 @@ export default function Home() {
       </main>
       <ShowSectionContainer sectionName="Collections">
         <div className=" text-center mt-32">
-          <Collections />
+          <Collections/>
         </div>
       </ShowSectionContainer>
       <ShowSectionContainer sectionName="ProcessCocktail">

@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link rel="preload" href="/assets/images/barman-aperitivo.webp" as="image" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
