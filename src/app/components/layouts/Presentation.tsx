@@ -7,7 +7,6 @@ function Presentation() {
     <>
       <Image
         priority={true}
-        loading="lazy"
         quality={70}
         className="absolute -left-1/3 sm:-left-1/4 -top-1/3 palmera sombraPngRight contrast-200"
         src={imgPalmeras}
