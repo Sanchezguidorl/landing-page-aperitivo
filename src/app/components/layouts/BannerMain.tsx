@@ -12,10 +12,10 @@ function BannerMain() {
           className="absolute top-1/3 left-1/4 sombraPngLeft"
           src={imgGlassAperitivo}
           alt="Vaso de aperitivo"
-          sizes="(max-width:600px) 240px, 300px"
+          sizes="(max-width:600px) 240px, 400px"
         />
         <Image
-        quality={80}
+        quality={60}
           className="absolute top-1/3 left-1/3 sombraPngLeft"
           src={imgCopaAperitivo}
           alt="Vaso de aperitivo"
@@ -31,12 +31,11 @@ function BannerMain() {
           </p>
         </div>
         <Image
-        quality={60}
           placeholder="blur"
           className="brightness-75"
           src={imgBarman}
           alt="Barman sirviendo aperitivo"
-          sizes="(max-width:600px) 500px, 600px"
+          sizes="(max-width:600px) 500px, 700px"
         />
       </div>
     </>
